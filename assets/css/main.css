@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
 /*
 	Forty by HTML5 UP
@@ -118,8 +118,9 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16.5pt;
+		font-size: 17pt;
 		font-weight: 300;
+		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
 
@@ -2990,7 +2991,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				padding: 2em 3em .1em 3em ;
+				padding: 2em 3em 0.1em 3em ;
 				width: 70%;
 			}
 
@@ -3018,11 +3019,11 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .image {
-				width: 35%;
+				width: 40%;
 			}
 
 			.spotlights > section > .content {
-				width: 65%;
+				width: 60%;
 			}
 
 		}
@@ -3030,11 +3031,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlights > section > .image {
-				width: 40%;
+				width: 45%;
 			}
 
 			.spotlights > section > .content {
-				width: 60%;
+				width: 55%;
 			}
 
 		}
@@ -3059,8 +3060,8 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-			
-			spotlights > section > .image {
+
+			.spotlights > section > .image {
 				padding: 3em 1.5em 1em 1.5em ;
 				align-items: center;
 			}
@@ -3392,12 +3393,12 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("https://augiecollins.github.io/images/IMG_35124.jpg");
+		background-image: url("IMG_35124.JPG");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 3em 0 2em 0 ;
+		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -3422,7 +3423,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.25s;
 			pointer-events: none;
-			background-color: #d4d9e5;
+			background-color: #242943;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3541,6 +3542,7 @@ input, select, textarea {
 			transform: translateX(-0.5em);
 			opacity: 0;
 		}
+
 
 		@media screen and (max-width: 736px) {
 
