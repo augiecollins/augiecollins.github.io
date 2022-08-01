@@ -2096,6 +2096,23 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* Iframe */
+
+.right-signature {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+.right-signature iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 /* Icon */
 
 	.icon {
@@ -3393,7 +3410,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("https://augiecollins.github.io/images/IMG_35124.jpg");
+		background-image: url("IMG_35124.JPG");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
