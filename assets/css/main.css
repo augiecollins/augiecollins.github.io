@@ -3553,6 +3553,7 @@ input, select, textarea {
 				max-height: none;
 				min-height: 0;
 				top: -2.75em;
+				background-attachment: scroll;
 			}
 
 				#banner h1 {
